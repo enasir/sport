@@ -34,27 +34,18 @@ a {
     text-decoration: none;
     color: black;
 }
-
-.icon-logo {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    stroke-width: 0;
-    stroke: #f1f1f1;
-    fill: #f1f1f1;
-    }
 .header {
     height: 100px;
     background-color: #ce7154;
     /*width: 1200px;*/
-    padding: 40px 0 0 -30px;
+    padding: 0 0 0 -30px;
 }
 .header-fix {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 0;
 }
 .header-logo {
     padding-left: 20px;
