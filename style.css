@@ -69,8 +69,12 @@ a {
     display: flex;
     align-items: center;
 }
+.wholesale__list ul{
+    font-size: 35px;
+    font-weight: bold;
+}
 .goods {
-    height: 820px;
+    min-height: 820px;
     background-color: #f1f1f1;
     margin-top: -42px;
     width: 100%;
