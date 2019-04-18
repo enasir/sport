@@ -34,18 +34,15 @@ a {
     text-decoration: none;
     color: black;
 }
-.icon {
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-}
+
 .icon-logo {
-    font-size: 64px;
-    color: #25429d;
-}
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    stroke-width: 0;
+    stroke: #f1f1f1;
+    fill: #f1f1f1;
+    }
 .header {
     height: 100px;
     background-color: #ce7154;
