@@ -35,7 +35,7 @@ a {
     color: black;
 }
 .header {
-    height: 100px;
+    min-height: 100px;
     background-color: #ce7154;
     /*width: 1200px;*/
     padding: 0 0 0 -30px;
