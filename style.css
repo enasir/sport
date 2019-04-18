@@ -34,6 +34,18 @@ a {
     text-decoration: none;
     color: black;
 }
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon-logo {
+    font-size: 32px;
+    color: #25429d;
+}
 .header {
     height: 100px;
     background-color: #ce7154;
