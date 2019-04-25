@@ -204,8 +204,6 @@ a {
     justify-content: space-between;
     /*margin-top: -1px;*/
 }
-/*.contacts__map {
-    background-image: url("img/map.jpg");
-    width: 558px;
-    height: 346px;
-}*/
+.contacts__map {
+    width: 60%;
+}
