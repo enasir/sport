@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html {
+    overflow-x: hidden;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    }
+.fix-head::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    left: -50vw;
+    right: -50vw;
+    background-color: #ce7154;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    min-height: 100px;
+    background-color: #ce7154;
+    /*width: 1200px;*/
+    padding: 0 0 0 -30px;
+}
+.header-fix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+}
+.header-logo {
+    padding-left: 20px;
+}
+.header-nav__a {
+    color: #f1f1f1;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.wholesale {
+    min-height: 765px;
+    background: #000 url("img/karate.jpg");
+
+}
+.wholesale-head {
+    font-size: 50px;
+    color: #2b2b2b;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 120px 0 130px 20px;
+}
+.wholesale__list li{
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+    padding-top: 20px;
+    color: #2b2b2b;
+}
+.wholesale__list li::before {
+    content: "✔";
+    padding-right: 5px;
+}
+.goods {
+    /*min-height: 820px;*/
+    background-color: #f1f1f1;
+    margin-top: -42px;
+    width: 100%;
+}
+.fix-goods::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    left: -50vw;
+    right: -50vw;
+    background-color: #f1f1f1;
+}
+.goods-h2 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+.goods-p {
+    font-size: 20px;
+    text-align: center;
+}
+.goods-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 50px;
+    overflow: hidden;
+}
+.goods-menu__ball {
+    background-image: url("img/ball.jpg");
+    transition: 0.5s;
+    height: 300px;
+    width: 300px;
+    /*display: flex;*/
+}
+.goods-menu__ball:hover {
+    opacity: .85;
+    /*transform: scale(1.05);
+    flex-basis: 98%;*/
+}
+.goods-menu__battle {
+    background-image: url("img/boxing.jpg");
+    height: 300px;
+    width: 300px;
+    transition:0.5s;
+}
+.goods-menu__battle:hover {
+    opacity: .85;
+}
+.goods-menu__atlet {
+    background-image: url("img/atlet.jpg");
+    height: 300px;
+    width: 300px;
+    transition: 0.5s;
+}
+.goods-menu__atlet:hover {
+    opacity: .85;
+}
+.goods-menu__h3 {
+    color: #f1f1f1;
+    text-align: center;
+    padding: 40px 0 0 0;
+    font-size: 30px;
+}
+.goods-menu__p {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 20px;
+}
+.advantage {
+    background-color: #b3b3b6;
+    margin-top: -50px;
+}
+.fix-adv::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    left: -50vw;
+    right: -50vw;
+    background-color: #b3b3b6;
+}
+.advantage-h2 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+.advantage__cover{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.advantage__best {
+    /*width: calc(50% - 20px);*/
+    display: flex;
+    flex-direction: row;
+}
+.advantage__best img {
+    padding-right: 5px;
+}
+
+.fix-contacts::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    left: -50vw;
+    right: -50vw;
+    background-color: #5b5c63;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: -1px;
+}
+.contacts__map {
+    width: 50%;
+}
+.fix-footer::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    left: -50vw;
+    right: -50vw;
+    background-color: #2a2a2d;
+}
+.footer {
+    color: #f1f1f1;
+    padding: 20px ;
+}
+@media screen and (max-width: 950px) {
+    .goods-menu__atlet, .goods-menu__ball, .goods-menu__battle {
+        height: 250px;
+        width: 250px;
+        padding-top: 0;
+     }
+    .goods-h2 {
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    .wholesale {
+        min-height: 500px;
+    }
+    .wholesale-head {
+        padding: 80px 0 30px 20px;
+    }
+    /*.header-logo{
+        max-width: 80px;
+   }*/
+
+}
+@media screen and (max-width: 850px) {
+    .goods-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .goods-menu__ball, .goods-menu__battle{
+        margin-bottom: 15px;
+    }
+    .advantage__cover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
