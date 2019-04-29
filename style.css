@@ -303,3 +303,20 @@ a {
     }
 
 }
+@media screen and (max-width: 600px){
+    .goods-menu__ball {
+        background-image: url("img/ball.jpg");
+        height: 300px;
+        width: 300px;
+    }
+    .goods-menu__battle {
+        background-image: url("img/boxing.jpg");
+        height: 300px;
+        width: 300px;
+    }
+    .goods-menu__atlet {
+        background-image: url("img/atlet.jpg");
+        height: 300px;
+        width: 300px;
+    }
+}
